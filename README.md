@@ -3,7 +3,8 @@
 ## Usage
 
 1. Create the watchtower container on your machine.
-2. Run the update-all.yaml file as ansible-playbook
+2. Change the hosts in the update-all.yaml
+3. Run the update-all.yaml file as ansible-playbook
 
 ```bash
 ansible-playbook update-all.yaml
